@@ -2,8 +2,8 @@ object Form1: TForm1
   Left = 0
   Top = 0
   Caption = 'Form1'
-  ClientHeight = 337
-  ClientWidth = 635
+  ClientHeight = 523
+  ClientWidth = 787
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
@@ -20,7 +20,6 @@ object Form1: TForm1
     Height = 73
     Caption = 'BitBtn1'
     TabOrder = 0
-    OnClick = BitBtn1Click
   end
   object Edit1: TEdit
     Left = 144
@@ -54,5 +53,21 @@ object Form1: TForm1
     Height = 21
     TabOrder = 4
     Text = 'Edit2'
+  end
+  object Button2: TButton
+    Left = 224
+    Top = 392
+    Width = 425
+    Height = 129
+    Caption = 'Button2'
+    TabOrder = 5
+  end
+  object Button3: TButton
+    Left = 216
+    Top = 328
+    Width = 393
+    Height = 25
+    Caption = 'Button3'
+    TabOrder = 6
   end
 end

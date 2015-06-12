@@ -13,7 +13,8 @@ type
     Memo1: TMemo;
     Button1: TButton;
     Edit2: TEdit;
-    procedure BitBtn1Click(Sender: TObject);
+    Button2: TButton;
+    Button3: TButton;
   private
     { Private declarations }
   public
@@ -26,10 +27,5 @@ var
 implementation
 
 {$R *.dfm}
-
-procedure TForm1.BitBtn1Click(Sender: TObject);
-begin
-C:\YJ_WORK\project\ggit
-end;
 
 end.
