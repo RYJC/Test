@@ -13,6 +13,13 @@ object Form1: TForm1
   OldCreateOrder = False
   PixelsPerInch = 96
   TextHeight = 13
+  object Label1: TLabel
+    Left = 384
+    Top = 272
+    Width = 77
+    Height = 13
+    Caption = 'edit by hoseong'
+  end
   object BitBtn1: TBitBtn
     Left = 320
     Top = 168
@@ -26,6 +33,7 @@ object Form1: TForm1
     Top = 64
     Width = 81
     Height = 21
+    ImeName = 'Microsoft IME 2010'
     TabOrder = 1
     Text = 'Edit1'
   end
@@ -34,6 +42,7 @@ object Form1: TForm1
     Top = 192
     Width = 153
     Height = 81
+    ImeName = 'Microsoft IME 2010'
     Lines.Strings = (
       'Memo1')
     TabOrder = 2
@@ -51,6 +60,7 @@ object Form1: TForm1
     Top = 40
     Width = 57
     Height = 21
+    ImeName = 'Microsoft IME 2010'
     TabOrder = 4
     Text = 'Edit2'
   end

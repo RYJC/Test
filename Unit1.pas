@@ -15,6 +15,7 @@ type
     Edit2: TEdit;
     Button2: TButton;
     Button3: TButton;
+    Label1: TLabel;
   private
     { Private declarations }
   public
