@@ -10,6 +10,9 @@ type
   TForm1 = class(TForm)
     BitBtn1: TBitBtn;
     Edit1: TEdit;
+    Memo1: TMemo;
+    Button1: TButton;
+    Edit2: TEdit;
     procedure BitBtn1Click(Sender: TObject);
   private
     { Private declarations }
